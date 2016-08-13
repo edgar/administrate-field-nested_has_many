@@ -10,7 +10,7 @@ module Administrate
       VERSION = "0.1.0"
 
       class Engine < ::Rails::Engine
-        Administrate::Engine.add_javascript "administrate-field-nested_has_many/application"
+        # Administrate::Engine.add_javascript "administrate-field-nested_has_many/application"
       end
 
       DEFAULT_ATTRIBUTES = [:id, :_destroy].freeze
